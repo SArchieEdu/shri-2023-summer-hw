@@ -9,10 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "classnames": "^2.3.2",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.6",
     "next": "13.4.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-redux": "^8.1.0",
+    "use-debounce": "^9.0.4"
+  },
+  "devDependencies": {
+    "sass": "^1.63.4"
   }
 }

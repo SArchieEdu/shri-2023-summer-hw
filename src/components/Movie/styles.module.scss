@@ -1,0 +1,56 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 305px 1fr;
+  grid-template-rows: repeat(7, auto);
+  column-gap: 30px;
+  background-color: rgba(214, 214, 214, 0.377);
+  border-radius: 8px;
+  padding: 30px 40px;
+}
+
+.poster {
+  border-radius: 8px;
+  grid-row: 1/-1;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.additionalInfo,
+.description {
+  grid-column: 2;
+}
+
+.additionalInfo {
+  margin-bottom: 10px;
+}
+
+.additionalInfoTitle {
+  margin-right: 8px;
+}
+.additionalInfoTitle,
+.descriptionTitle {
+  font-weight: 600;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.descriptionTitle {
+  margin-bottom: 8px;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+}

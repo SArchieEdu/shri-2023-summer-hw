@@ -1,0 +1,20 @@
+.root {
+  display: flex;
+}
+
+.modal {
+  background-color: white;
+  padding: 8px 10px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalTitle {
+  margin-bottom: 10px;
+}
+
+.modalAction:not(:last-child) {
+  margin-right: 10px;
+}

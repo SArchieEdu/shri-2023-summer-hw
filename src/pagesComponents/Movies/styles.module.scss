@@ -1,0 +1,10 @@
+.root {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 20px;
+}
+
+.filters {
+  position: sticky;
+  top: 58px;
+}

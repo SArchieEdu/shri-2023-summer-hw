@@ -1,0 +1,23 @@
+:root {
+  --orange: #f50;
+  --orange-disabled: #ffa375;
+  --orange-hover: #e94e00;
+  --black: #1b1f23;
+  --white: #fff;
+  --gray: #333;
+  --light-gray: #e1e3e6;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}

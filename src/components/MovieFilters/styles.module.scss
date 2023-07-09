@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.filterLabel {
+  margin-bottom: 10px;
+}

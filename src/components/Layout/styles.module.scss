@@ -1,0 +1,21 @@
+.root {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+}
+
+.content {
+  padding: 10px 20px;
+}
+
+.selectPortal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}

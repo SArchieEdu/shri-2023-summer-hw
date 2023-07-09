@@ -1,0 +1,47 @@
+.menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.select {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+
+  width: 100%;
+  background: var(--white);
+  border: 1px solid;
+  border-color: var(--light-gray);
+  border-radius: 8px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--black);
+  outline: none;
+
+  &:focus {
+    border-color: var(--orange);
+  }
+}
+
+.option {
+  border-radius: 0;
+  border: none;
+  background-color: white;
+  padding: 4px;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid grey;
+  }
+
+  &:last-child {
+    border-radius: 0 0 4px 4px;
+  }
+  &:first-child {
+    border-radius: 4px 4px 0 0;
+  }
+}

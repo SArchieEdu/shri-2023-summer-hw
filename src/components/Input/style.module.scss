@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+
+  width: 100%;
+  background: var(--white);
+  border: 1px solid;
+  border-color: var(--light-gray);
+  border-radius: 8px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--black);
+  outline: none;
+
+  &:focus {
+    border-color: var(--orange);
+  }
+}
